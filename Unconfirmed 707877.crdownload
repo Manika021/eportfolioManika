@@ -1,0 +1,17 @@
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const contactForm = document.getElementById("contactForm");
+  
+  contactForm.addEventListener("submit", function(event) {
+    event.preventDefault();
+    
+    // Optionally, you can add form validation logic here
+    
+    // Submit the form
+    contactForm.submit();
+    
+    // Optionally, show a confirmation message to the user
+    alert("Your message has been sent!");
+  });
+});
+</script>
